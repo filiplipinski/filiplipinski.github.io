@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d5dd8977e5fd3e346a1b43b0b66b4149",
-    "url": "/static/media/fontello.d5dd8977.woff2"
+    "revision": "3e5350478b91d61ab7097b0bc4b20216",
+    "url": "/static/media/fontello.3e535047.woff"
   },
   {
-    "revision": "05b3086bf7d813bd8d87",
-    "url": "/static/css/main.62f3a99f.chunk.css"
+    "revision": "a964d520f13445369539",
+    "url": "/static/css/main.18229ae3.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -32,16 +32,16 @@ self.__precacheManifest = [
     "url": "/static/media/simple_todo.9caf3a41.jpg"
   },
   {
+    "revision": "d5dd8977e5fd3e346a1b43b0b66b4149",
+    "url": "/static/media/fontello.d5dd8977.woff2"
+  },
+  {
+    "revision": "a964d520f13445369539",
+    "url": "/static/js/main.a964d520.chunk.js"
+  },
+  {
     "revision": "7bb03661c6551e36ce9b6f1b5712bf52",
     "url": "/static/media/fontello.7bb03661.eot"
-  },
-  {
-    "revision": "05b3086bf7d813bd8d87",
-    "url": "/static/js/main.05b3086b.chunk.js"
-  },
-  {
-    "revision": "3e5350478b91d61ab7097b0bc4b20216",
-    "url": "/static/media/fontello.3e535047.woff"
   },
   {
     "revision": "fdeec51cb42f949061f68a47f2bc3955",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/static/media/hobby3.fec796ac.jpg"
   },
   {
-    "revision": "8d0c89c2d0122ce12f7a961676dec9dd",
+    "revision": "1f510021308e27ccbd0b03f4a0e850f3",
     "url": "/index.html"
   }
 ];
