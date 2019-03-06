@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/fontello.3e535047.woff"
   },
   {
-    "revision": "f1373961eeed6da54902",
+    "revision": "bac20eabde37c83eed9d",
     "url": "/static/css/main.4eaeb75c.chunk.css"
   },
   {
@@ -36,24 +36,24 @@ self.__precacheManifest = [
     "url": "/static/media/simple_todo.9caf3a41.jpg"
   },
   {
-    "revision": "9b51fbf988e45d6c0ea1fa906757687f",
-    "url": "/static/media/fontello.9b51fbf9.svg"
+    "revision": "7bb03661c6551e36ce9b6f1b5712bf52",
+    "url": "/static/media/fontello.7bb03661.eot"
   },
   {
     "revision": "d5dd8977e5fd3e346a1b43b0b66b4149",
     "url": "/static/media/fontello.d5dd8977.woff2"
   },
   {
-    "revision": "f1373961eeed6da54902",
-    "url": "/static/js/main.f1373961.chunk.js"
-  },
-  {
-    "revision": "7bb03661c6551e36ce9b6f1b5712bf52",
-    "url": "/static/media/fontello.7bb03661.eot"
+    "revision": "bac20eabde37c83eed9d",
+    "url": "/static/js/main.bac20eab.chunk.js"
   },
   {
     "revision": "fdeec51cb42f949061f68a47f2bc3955",
     "url": "/static/media/fontello.fdeec51c.ttf"
+  },
+  {
+    "revision": "9b51fbf988e45d6c0ea1fa906757687f",
+    "url": "/static/media/fontello.9b51fbf9.svg"
   },
   {
     "revision": "fe1806aa485d6646ae475038ae9804f3",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/technology-icons.eb151c2f.svg"
   },
   {
-    "revision": "f94927ab577e9038cfa2de773865aece",
+    "revision": "d0468d65d00ddf1290e2a815362acfec",
     "url": "/index.html"
   }
 ];
