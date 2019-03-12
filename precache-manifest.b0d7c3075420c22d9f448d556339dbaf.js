@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "3e5350478b91d61ab7097b0bc4b20216",
-    "url": "/static/media/fontello.3e535047.woff"
+    "revision": "d5dd8977e5fd3e346a1b43b0b66b4149",
+    "url": "/static/media/fontello.d5dd8977.woff2"
   },
   {
-    "revision": "0c0f6614c9631cbc47a7",
-    "url": "/static/css/main.a10d5df9.chunk.css"
+    "revision": "b04d7818e519b824a437",
+    "url": "/static/css/main.71301923.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "7845e64811633a950242",
-    "url": "/static/js/2.7845e648.chunk.js"
+    "revision": "9d92b56dba9b600095f1",
+    "url": "/static/js/2.9d92b56d.chunk.js"
   },
   {
     "revision": "ff6086f40c252daef308c3bd293a9d77",
@@ -36,24 +36,24 @@ self.__precacheManifest = [
     "url": "/static/media/simple_todo.9caf3a41.jpg"
   },
   {
-    "revision": "d5dd8977e5fd3e346a1b43b0b66b4149",
-    "url": "/static/media/fontello.d5dd8977.woff2"
-  },
-  {
     "revision": "7bb03661c6551e36ce9b6f1b5712bf52",
     "url": "/static/media/fontello.7bb03661.eot"
   },
   {
-    "revision": "0c0f6614c9631cbc47a7",
-    "url": "/static/js/main.0c0f6614.chunk.js"
+    "revision": "3e5350478b91d61ab7097b0bc4b20216",
+    "url": "/static/media/fontello.3e535047.woff"
   },
   {
-    "revision": "9b51fbf988e45d6c0ea1fa906757687f",
-    "url": "/static/media/fontello.9b51fbf9.svg"
+    "revision": "b04d7818e519b824a437",
+    "url": "/static/js/main.b04d7818.chunk.js"
   },
   {
     "revision": "fdeec51cb42f949061f68a47f2bc3955",
     "url": "/static/media/fontello.fdeec51c.ttf"
+  },
+  {
+    "revision": "9b51fbf988e45d6c0ea1fa906757687f",
+    "url": "/static/media/fontello.9b51fbf9.svg"
   },
   {
     "revision": "fe1806aa485d6646ae475038ae9804f3",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/technology-icons.eb151c2f.svg"
   },
   {
-    "revision": "14fee479fd3f8ab4a728d1652ff8649c",
+    "revision": "dca5e6834070c64daeeee1482b72ad68",
     "url": "/index.html"
   }
 ];
