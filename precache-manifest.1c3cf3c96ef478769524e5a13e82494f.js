@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/fontello.fdeec51c.ttf"
   },
   {
-    "revision": "cca9360a05a63bd9f92d",
+    "revision": "c0036f93373bb7c05309",
     "url": "/static/css/main.71301923.chunk.css"
   },
   {
@@ -36,24 +36,24 @@ self.__precacheManifest = [
     "url": "/static/media/simple_todo.9caf3a41.jpg"
   },
   {
-    "revision": "7bb03661c6551e36ce9b6f1b5712bf52",
-    "url": "/static/media/fontello.7bb03661.eot"
-  },
-  {
     "revision": "3e5350478b91d61ab7097b0bc4b20216",
     "url": "/static/media/fontello.3e535047.woff"
   },
   {
-    "revision": "cca9360a05a63bd9f92d",
-    "url": "/static/js/main.cca9360a.chunk.js"
+    "revision": "7bb03661c6551e36ce9b6f1b5712bf52",
+    "url": "/static/media/fontello.7bb03661.eot"
   },
   {
-    "revision": "d5dd8977e5fd3e346a1b43b0b66b4149",
-    "url": "/static/media/fontello.d5dd8977.woff2"
+    "revision": "c0036f93373bb7c05309",
+    "url": "/static/js/main.c0036f93.chunk.js"
   },
   {
     "revision": "9b51fbf988e45d6c0ea1fa906757687f",
     "url": "/static/media/fontello.9b51fbf9.svg"
+  },
+  {
+    "revision": "d5dd8977e5fd3e346a1b43b0b66b4149",
+    "url": "/static/media/fontello.d5dd8977.woff2"
   },
   {
     "revision": "fe1806aa485d6646ae475038ae9804f3",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/technology-icons.eb151c2f.svg"
   },
   {
-    "revision": "5795f7c66770e952f5a4e3981e7156da",
+    "revision": "7d1a690dce1c79a00369252b3d945722",
     "url": "/index.html"
   }
 ];
