@@ -1,15 +1,27 @@
 {
+<<<<<<< HEAD
   "main.css": "/static/css/main.8443f045.chunk.css",
   "main.js": "/static/js/main.ff0c99af.chunk.js",
   "main.js.map": "/static/js/main.ff0c99af.chunk.js.map",
+=======
+  "main.css": "/static/css/main.42d5d64a.chunk.css",
+  "main.js": "/static/js/main.679e9ed2.chunk.js",
+  "main.js.map": "/static/js/main.679e9ed2.chunk.js.map",
+>>>>>>> parent of 364e92d... v1.8.3
   "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
   "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
   "static/js/2.b9672682.chunk.js": "/static/js/2.b9672682.chunk.js",
   "static/js/2.b9672682.chunk.js.map": "/static/js/2.b9672682.chunk.js.map",
   "index.html": "/index.html",
+<<<<<<< HEAD
   "precache-manifest.221e2d52dd9a7e1a8798f04cc3abb50a.js": "/precache-manifest.221e2d52dd9a7e1a8798f04cc3abb50a.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.8443f045.chunk.css.map": "/static/css/main.8443f045.chunk.css.map",
+=======
+  "precache-manifest.f520d56fee1838ded9a59dcf75de0441.js": "/precache-manifest.f520d56fee1838ded9a59dcf75de0441.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.42d5d64a.chunk.css.map": "/static/css/main.42d5d64a.chunk.css.map",
+>>>>>>> parent of 364e92d... v1.8.3
   "static/media/fontello.css": "/static/media/fontello.fdeec51c.ttf",
   "static/media/About.css": "/static/media/hobby4.4375acce.jpg",
   "static/media/js.png": "/static/media/js.ff6086f4.png",
