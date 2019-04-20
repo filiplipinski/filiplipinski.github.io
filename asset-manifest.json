@@ -1,0 +1,21 @@
+{
+  "main.css": "/static/css/main.dd82f354.chunk.css",
+  "main.js": "/static/js/main.ac24280e.chunk.js",
+  "main.js.map": "/static/js/main.ac24280e.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.b9672682.chunk.js": "/static/js/2.b9672682.chunk.js",
+  "static/js/2.b9672682.chunk.js.map": "/static/js/2.b9672682.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.da1567f62427fa0882ce544b251deb39.js": "/precache-manifest.da1567f62427fa0882ce544b251deb39.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.dd82f354.chunk.css.map": "/static/css/main.dd82f354.chunk.css.map",
+  "static/media/fontello.css": "/static/media/fontello.fdeec51c.ttf",
+  "static/media/About.css": "/static/media/hobby4.4375acce.jpg",
+  "static/media/js.png": "/static/media/js.ff6086f4.png",
+  "static/media/portfolio.jpg": "/static/media/portfolio.646dc90a.jpg",
+  "static/media/psdtohtml.jpg": "/static/media/psdtohtml.dc3e1384.jpg",
+  "static/media/rest-api.jpg": "/static/media/rest-api.159ba84e.jpg",
+  "static/media/technology-icons.css": "/static/media/technology-icons.eb151c2f.svg",
+  "static/media/thebestmovies.jpg": "/static/media/thebestmovies.b64f346a.jpg"
+}
