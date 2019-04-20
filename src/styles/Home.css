@@ -1,0 +1,93 @@
+div.home {
+  position: relative;
+  margin-top: 13%;
+}
+
+div.home .name-wrapper {
+  margin: 40px 0 0 80px;
+  opacity: 0;
+  animation: enter linear both 1s, makeVisible ease-in both 2s;
+}
+
+div.home .name-wrapper h1 {
+  display: inline-block;
+  color: var(--h1);
+  font-family: "Josefin Sans", sans-serif;
+  /* font-style: italic; */
+  /* letter-spacing: 10px; */
+  text-transform: uppercase;
+  font-size: calc(70px * var(--ratio));
+  text-shadow: -1px 0 4px var(--bgc), 0 1px 4px var(--bgc), 1px 0 4px var(--bgc), 0 -1px 4px var(--bgc),
+    4px 4px 3px var(--shadow), 6px 6px 6px var(--h2);
+  transition: .3s;
+}
+
+div.home .name-wrapper h1.surname {
+  /* margin-left: calc(65.5px * var(--ratio)); */
+  margin-left: calc(-112px * var(--ratio));
+  /* margin-top: calc(-70px * var(--ratio)); */
+  /* margin-top: 0; */
+  animation: split 0.5s 2s linear both;
+}
+
+div.home .name-wrapper h1:hover {
+  cursor: default;
+  color: transparent;
+  text-shadow: 4px 4px 3px transparent, 6px 6px 3px var(--h2);
+}
+
+div.home h2 {
+  color: var(--h2);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  margin: 20px 0 0 80px;
+  animation: makeVisible 2.5s 2s linear both;
+}
+
+div.home p {
+  display: block;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #aaa;
+  opacity: 0;
+}
+
+div.home p:nth-of-type(1) {
+  margin: 100px 0 0 40px;
+  animation: makeVisible 1s linear both;
+}
+
+div.home p:nth-of-type(2) {
+  margin: 80px 0 0 200px;
+  animation: makeVisible 1s 2s linear both;
+}
+
+@keyframes enter {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes split {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes makeVisible {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

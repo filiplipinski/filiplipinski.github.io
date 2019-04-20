@@ -1,0 +1,42 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+i[class^="icon-"]:before,
+i[class*=" icon-"]:before {
+  margin: 0;
+}
+
+/* delete margin which fontello gives */
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li i {
+  display: block;
+  color: var(--h1);
+  font-size: 30px;
+  margin: 15px 10px 15px 0;
+  padding: 10px;
+  transition: .3s;
+  -webkit-text-stroke: 0.5px var(--bgc);
+  /* makes icons thinner */
+}
+
+nav ul li a.active i {
+  color: var(--h2);
+}
+
+nav ul li:nth-of-type(1),
+nav ul li:nth-of-type(2),
+nav ul li:nth-of-type(3) {
+  /* border-bottom: 1px solid #4E4E50;  */
+}
+
+nav ul li i:hover {
+  color: var(--shadow);
+}

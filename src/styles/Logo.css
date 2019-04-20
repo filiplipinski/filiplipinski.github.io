@@ -1,0 +1,58 @@
+div.logo h3.logo {
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  font-size: 260px;
+  font-family: "Great Vibes", cursive;
+  color: var(--h1);
+  transform: rotate(-15deg);
+  text-shadow: 0 3px 3px var(--red), 3px 0 3px var(--red);
+  /* animation: shine 2s ease-in-out infinite alternate,
+    makeVisible 3s 2s ease-in both; */
+  /* animation: shine 2s ease-in-out both, makeVisible 3s 2s ease-in both; */
+  animation: shine 2s cubic-bezier(0.85, 0, 0.15, 1) infinite alternate,
+    makeVisible 1s 0.5s ease-in both;
+  transition: 0.6s;
+}
+
+div.logo h3.logo.firstLoad {
+  top: 28%;
+  right: 20%;
+  font-size: 15vw;
+  /* bylo fS 260 */
+  animation: shine 2s cubic-bezier(0.85, 0, 0.15, 1) infinite alternate, makeVisible 1s 0.5s ease-in both;
+}
+
+div.logo h3.logo.notFirstLoad {
+  top: 28%;
+  right: 20%;
+  font-size: 15vw;
+  animation: shine 2s cubic-bezier(0.85, 0, 0.15, 1) infinite alternate;
+}
+
+div.logo h3.logo.corner {
+  top: 25px;
+  right: 25px;
+  font-size: 40px;
+  animation: none;
+  cursor: pointer;
+}
+
+
+@keyframes shine {
+  0% {
+    color: var(--h1);
+    transform: rotate(-15deg) scale(1);
+    text-shadow: 0 3px 3px var(--red), 3px 0 3px var(--red);
+  }
+
+  50% {
+    /* color: green; */
+  }
+
+  100% {
+    color: var(--red);
+    transform: rotate(-15deg) scale(1.05);
+    text-shadow: 0 3px 3px var(--h1), 3px 0 3px var(--h1);
+  }
+}

@@ -1,0 +1,1746 @@
+/* NAVITAGATION */
+@media (max-width: 1023px) {
+  nav {
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+  }
+
+  nav ul li {
+    flex-basis: 25%;
+  }
+
+  nav ul li i {
+    text-align: center;
+    margin: 0;
+  }
+
+  nav ul li:nth-of-type(1),
+  nav ul li:nth-of-type(2),
+  nav ul li:nth-of-type(3) {
+    border-right: 2px solid var(--h1);
+  }
+}
+
+@media (max-width: 824px) and (orientation: landscape) {
+  nav ul li i {
+    font-size: 22px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 824px) and (orientation: landscape) {
+  nav ul li i {
+    font-size: 18px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  nav ul li i {
+    font-size: 16px;
+  }
+
+  nav ul li:nth-of-type(1),
+  nav ul li:nth-of-type(2),
+  nav ul li:nth-of-type(3) {
+    border-right: 1px solid var(--h1);
+  }
+}
+
+@media (max-width: 412px) and (orientation: portrait) {
+  nav ul li i {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  nav ul li i {
+    font-size: 20px;
+  }
+}
+
+/* HOME + LOGO */
+@media (min-width: 1600px) {
+  :root {
+    --ratio: 1.2;
+  }
+
+  div.home h2 {
+    font-size: 24px;
+  }
+
+  div.home p {
+    font-size: 22px;
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    top: 30%;
+  }
+}
+
+@media (max-width: 1280px) {
+  :root {
+    --ratio: 0.9;
+  }
+
+  div.home h2 {
+    font-size: 18px;
+  }
+
+  div.home p {
+    font-size: 15px;
+  }
+
+  div.home .name-wrapper {
+    margin: 30px 0 0 80px;
+  }
+
+  /* LOGO */
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    /* font-size: 312px; */
+    top: 35%;
+  }
+}
+
+@media (min-height: 1024px) and (max-width: 1366px) {
+  :root {
+    --ratio: 1.2;
+  }
+
+  div.home {
+    margin-top: 20%;
+  }
+
+  div.home h2 {
+    font-size: 28px;
+  }
+
+  div.home p {
+    font-size: 26px;
+  }
+
+  div.home p:nth-of-type(2) {
+    margin: 100px 0 0 200px;
+  }
+
+  /* LOGO */
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    font-size: 16vw;
+    top: 25%;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  :root {
+    --ratio: 1.4;
+  }
+
+  div.home {
+    margin-top: 50%;
+  }
+
+  div.home h2 {
+    font-size: 32px;
+    margin: 40px 0 0 80px;
+  }
+
+  div.home p {
+    font-size: 30px;
+  }
+
+  /* LOGO */
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    font-size: 20vw;
+    top: 15%;
+  }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  :root {
+    --ratio: 1.2;
+  }
+
+  div.home {
+    margin-top: calc(47% - 56px);
+  }
+
+  div.home h2 {
+    font-size: 27px;
+    margin: 40px 0 0 40px;
+  }
+
+  div.home p {
+    font-size: 25px;
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    right: 33%;
+    top: calc(16% - 56px);
+  }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+  :root {
+    --ratio: 0.8;
+  }
+
+  div.home {
+    margin-top: calc(47% - 56px);
+  }
+
+  div.home h2 {
+    font-size: 24px;
+    margin: 40px 0 0 40px;
+  }
+
+  div.home p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 415px) and (orientation: portrait) {
+  :root {
+    --ratio: 0.7;
+  }
+
+  div.home {
+    margin-top: calc(55% - 56px);
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    font-size: 25vw;
+    top: calc(16% - 56px);
+    right: 30%;
+  }
+
+}
+
+@media (max-width: 412px) and (orientation: portrait) {
+  :root {
+    --ratio: 0.71;
+  }
+
+  div.home {
+    margin-top: calc(65% - 56px);
+  }
+
+  div.home h2 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  div.home p {
+    font-size: 20px;
+  }
+
+  div.home .name-wrapper {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  :root {
+    --ratio: 0.65;
+  }
+
+  div.home {
+    margin-top: calc(65% - 56px);
+  }
+
+  div.home h2 {
+    font-size: 18px;
+  }
+
+  div.home p {
+    font-size: 16px;
+  }
+
+  div.home p:nth-of-type(2) {
+    margin-top: 60px;
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    top: calc(18% - 56px);
+  }
+
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  :root {
+    --ratio: 0.5;
+  }
+
+  div.home {
+    margin-top: calc(60% - 56px);
+  }
+
+  div.home h2 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  div.home p {
+    font-size: 14px;
+  }
+
+  div.home .name-wrapper {
+    margin-top: 20px;
+
+  }
+
+  div.home p:nth-of-type(2) {
+    margin-top: 50px;
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    font-size: 22vw;
+    top: calc(20% - 56px);
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  :root {
+    --ratio: 1.1;
+  }
+
+  div.home {
+    margin-top: 20%;
+  }
+
+  div.home h2 {
+    font-size: 32px;
+  }
+
+  div.home p {
+    font-size: 28px;
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    font-size: 16vw;
+    top: 15%;
+  }
+}
+
+@media (max-width: 824px) and (orientation: landscape) {
+  :root {
+    --ratio: 0.8;
+  }
+
+  div.home {
+    margin-top: 0;
+  }
+
+  div.home h2 {
+    font-size: 18px;
+  }
+
+  div.home p {
+    font-size: 16px;
+  }
+
+  div.home p:nth-of-type(1) {
+    margin: 40px 0 0 40px;
+  }
+
+  div.home p:nth-of-type(2) {
+    margin: 70px 0 0 200px;
+  }
+
+  div.home .name-wrapper {
+    margin: 20px 0 0 80px;
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    font-size: 15vw;
+    top: 20%;
+    right: 10%;
+  }
+}
+
+/* iphone X */
+@media (max-width: 812px) and (max-height: 479px) and (orientation: landscape) {
+  div.home {
+    margin-top: -3%;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  :root {
+    --ratio: 0.6;
+  }
+
+  div.home {
+    margin-top: -2%;
+    margin-left: -2%;
+  }
+
+  div.home h2 {
+    font-size: 16px;
+  }
+
+  div.home p {
+    font-size: 14px;
+  }
+
+  div.home p:nth-of-type(1) {
+    margin: 40px 0 0 40px;
+  }
+
+  div.home p:nth-of-type(2) {
+    margin-top: 60px;
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    right: 12%;
+    font-size: 12vw;
+  }
+}
+
+/* iphone 5/se */
+@media (max-width: 568px) and (min-width: 535px) and (max-height: 320px) and (orientation: landscape) {
+  div.home {
+    margin-top: -5%;
+  }
+}
+
+
+@media (max-width: 534px) and (orientation: landscape) {
+  :root {
+    --ratio: 0.5;
+  }
+
+  div.home h2 {
+    font-size: 14px;
+  }
+
+  div.home p {
+    font-size: 12px;
+  }
+
+  div.home p:nth-of-type(1) {
+    margin: 40px 0 0 40px;
+  }
+
+  div.home p:nth-of-type(2) {
+    margin-top: 50px;
+  }
+
+  div.logo h3.logo.firstLoad,
+  div.logo h3.logo.notFirstLoad {
+    font-size: 13vw;
+  }
+}
+
+/* ABOUT */
+@media (min-width: 1600px) {
+  div.about .left>p:nth-child(1) {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  div.about section.container {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 1366px) and (orientation: landscape) {
+  div.about .left>p:nth-child(1) {
+    font-size: 20px;
+    padding-top: 2%;
+  }
+
+  div.about section.container {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 1280px) and (orientation: landscape) {
+  div.about section.container {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+
+  div.about .left>p:nth-child(1),
+  div.about .left .hobbies p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  div.about .left .hobbies p {
+    font-size: 16px;
+  }
+
+  div.about section.container {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 824px) and (orientation: landscape) {
+  main {
+    top: 5%;
+    right: 5%;
+  }
+
+  div.about .left>p:nth-child(1) {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  div.about h1 {
+    font-size: 30px;
+    margin: 10px 0 20px 20px;
+  }
+
+  div.about .left .hobbies div {
+    border-width: 1px;
+  }
+
+  div.about .left .hobbies p {
+    font-size: 10px;
+  }
+
+  div.about section.container {
+    padding-top: 0;
+  }
+
+  .dots {
+    bottom: 4%;
+  }
+
+  .dots li {
+    width: 14px;
+    height: 14px;
+    box-shadow: inset 0 0 0 1px var(--h1), inset 0 0 0 3px var(--bgc);
+  }
+
+  .dots li.active {
+    box-shadow: inset 0 0 0 1px var(--h1), inset 0 0 0 3px var(--bgc), 0 0 4px 2px var(--h2);
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  div.about .left {
+    margin-top: 7%;
+  }
+}
+
+@media (max-width: 736px) and (orientation: landscape) {
+  div.about .left {
+    margin-top: 2%;
+  }
+
+  div.about .left>p:nth-child(1) {
+    line-height: 13px;
+  }
+}
+
+@media (max-width: 668px) and (orientation: landscape) {
+  div.about .left {
+    margin-top: 0;
+  }
+
+  div.about .left>p:nth-child(1) {
+    line-height: 11px;
+  }
+
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  div.about .left {
+    margin-top: 0;
+  }
+
+  div.about .left>p:nth-child(1) {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  div.about .left .hobbies p {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 568px) and (orientation: landscape) {
+
+  div.about h1 {
+    font-size: 25px;
+  }
+
+  div.about .left>p:nth-child(1) {
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  div.about .left .hobbies p {
+    font-size: 8px;
+  }
+
+  .dots li {
+    width: 12px;
+    height: 12px;
+  }
+
+  .dots li.active {
+    box-shadow: inset 0 0 0 1px var(--h1), inset 0 0 0 3px var(--bgc), 0 0 4px 1px var(--h2);
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  main {
+    right: 8%;
+  }
+
+  div.about h1 {
+    margin-top: 0;
+  }
+
+  div.about .left {
+    display: block;
+  }
+
+  div.about .left>p:nth-child(1) {
+    font-size: 24px;
+    padding: 4%;
+  }
+
+  div.about .left .hobbies p {
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+  }
+
+  div.about .left .hobbies {
+    height: 30vh;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  main {
+    right: 5%;
+  }
+
+  div.about h1 {
+    margin: -20px 0 40px 0;
+  }
+
+  div.about .left>p:nth-child(1) {
+    font-size: 20px;
+    padding: 0 4% 2%;
+    line-height: 22px;
+  }
+
+  .dots {
+    bottom: -3%;
+  }
+
+  div.about .left .hobbies p {
+    top: -2%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+  div.about h1 {
+    font-size: 35px;
+    margin: -20px 0 20px 0;
+  }
+
+  div.about .left>p:nth-child(1) {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  div.about .left .hobbies p {
+    font-size: 16px;
+  }
+
+  .dots {
+    bottom: -2%;
+  }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+  div.about .left>p:nth-child(1) {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  div.about .left .hobbies p {
+    font-size: 14px;
+  }
+
+  div.about .left .hobbies {
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+  div.about .left>p:nth-child(1) {
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  div.about .left .hobbies p {
+    font-size: 12px;
+  }
+
+  div.about .left .hobbies div {
+    border-width: 1px;
+  }
+
+  div.logo h3.logo.corner {
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  div.about .left>p:nth-child(1) {
+    font-size: 11px;
+    line-height: 11px;
+  }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  div.about .left>p:nth-child(1) {
+    font-size: 9px;
+    line-height: 9px;
+  }
+
+  div.about .left .hobbies p {
+    font-size: 10px;
+  }
+
+  .dots li {
+    width: 14px;
+    height: 14px;
+  }
+
+  div.logo h3.logo.corner {
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+  }
+}
+
+/* ABOUT 2 SECTION */
+@media (min-width: 1600px) {
+
+  div.about div.logos {
+    top: 22%;
+    left: 10%;
+  }
+
+  div.about div.container {
+    padding-top: 2%;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 1366px) {
+  div.about section.container {
+    padding-top: 0;
+  }
+
+  div.about div.container {
+    padding-top: 0;
+  }
+
+  div.about div.logos {
+    top: 25%;
+    left: 10%;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  div.about div.logos {
+    top: 30%;
+    left: 5%;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  div.about div.container {
+    margin-left: 43%;
+  }
+}
+
+@media (max-width: 824px) and (orientation: landscape) {
+  div.about div.logos {
+    top: 13%;
+    left: 8%;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  div.about div.logos img {
+    width: 7vw;
+  }
+
+  div.about div.logos::before {
+    box-shadow: 0 0 500px 80px #cbe2ee;
+  }
+
+  div.logo h3.logo.corner {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 736px) and (orientation: landscape) {
+  div.about div.logos {
+    left: 8%;
+    top: 15%;
+  }
+}
+
+@media (max-width: 668px) and (orientation: landscape) {
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 11px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  div.about div.logos {
+    top: 15%;
+    left: 10%;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 568px) and (orientation: landscape) {
+  div.about div.container {
+    padding-top: 0;
+  }
+
+  div.about div.logos::before {
+    box-shadow: 0 0 200px 60px #cbe2ee;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  div.logo h3.logo.corner {
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  div.about div.logos {
+    top: 20%;
+    left: 35%;
+  }
+
+  div.about div.logos::before {
+    box-shadow: 0 0 200px 70px #cbe2ee;
+  }
+
+  div.about div.container {
+    margin: 50% 0 0;
+    padding: 0 2% 0;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+  div.about div.logos {
+    top: 15%;
+    left: 35%;
+  }
+
+  div.about div.logos::before {
+    box-shadow: 0 0 120px 50px #cbe2ee;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  div.about div.container {
+    margin: 52% 0 0;
+    padding: 0 2% 0;
+  }
+}
+
+/* iphone 6/7/8 */
+@media (max-width: 376px) and (min-height: 668px) and (orientation: portrait) {
+  div.logo h3.logo.corner {
+    font-size: 30px;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 376px) and (orientation: portrait) {
+  div.about h1 {
+    font-size: 30px;
+  }
+
+  div.about div.logos {
+    top: 18%;
+    left: 35%;
+  }
+
+  div.logo h3.logo.corner {
+    font-size: 30px;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  div.about h1 {
+    font-size: 30px;
+  }
+
+  div.about div.container p,
+  div.about div.container li {
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  div.about div.logos::before {
+    box-shadow: 0 0 100px 35px #cbe2ee;
+  }
+
+  div.logo h3.logo.corner {
+    font-size: 20px;
+  }
+}
+
+/* PROJECTS  */
+@media (min-width: 1600px) {
+  div.projects .content h2 {
+    font-size: 40px;
+  }
+
+  div.projects .content a {
+    font-size: 15px;
+  }
+
+  div.projects .content p {
+    font-size: 20px;
+  }
+
+  div.projects .content .technologies i,
+  div.projects .content .technologies em {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1366px) {
+  div.projects .wrapper-for-arrows {
+    height: 50%;
+    margin-top: 8%;
+  }
+}
+
+/* 1366x768 */
+@media (max-width: 1366px) and (max-height: 1023px) {
+  div.projects .wrapper-for-arrows {
+    height: 60%;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  div.projects .content h2 {
+    font-size: 25px;
+  }
+
+  div.projects .content a {
+    font-size: 10px;
+  }
+
+  div.projects .content p {
+    font-size: 12px;
+  }
+
+  div.projects .content .technologies i,
+  div.projects .content .technologies em {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 824px) and (orientation: landscape) {
+  div.projects h1 {
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+  }
+
+  div.projects .wrapper-for-arrows {
+    height: 73%;
+    margin-top: -1%;
+  }
+
+  div.projects .content h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+  }
+
+  div.projects .content a {
+    font-size: 8px;
+  }
+
+  div.projects .content p {
+    font-size: 10px;
+    padding: 5px 10px;
+    line-height: 15px;
+  }
+
+  div.projects .content .technologies i,
+  div.projects .content .technologies em {
+    font-size: 15px;
+  }
+
+  div.projects .wrapper-for-arrows i.fas {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  div.projects .wrapper-for-arrows {
+    height: 60%;
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 736px) and (orientation: landscape) {
+  div.projects .content p {
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  div.projects .wrapper-for-arrows {
+    margin-top: 5%;
+  }
+
+  div.projects .content .technologies em,
+  div.projects .content .technologies i {
+    padding: 0 6px 0;
+  }
+}
+
+@media (max-width: 668px) and (orientation: landscape) {
+
+  div.projects .content .technologies i,
+  div.projects .content .technologies em {
+    font-size: 14px;
+  }
+
+  div.projects .wrapper-for-arrows {
+    margin-top: 3%;
+    height: 70%;
+  }
+
+  div.projects .content .technologies {
+    margin-top: 4px;
+  }
+
+  div.projects .content p {
+    padding: 3px 10px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  div.projects .content h2 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+
+  div.projects .content a {
+    font-size: 7px;
+  }
+
+  div.projects .content p {
+    line-height: 8px;
+  }
+}
+
+@media (max-width: 568px) and (orientation: landscape) {
+  div.projects h1 {
+    font-size: 25px;
+    margin: 10px 0 15px 0;
+  }
+
+  div.projects .wrapper-for-arrows {
+    margin-top: 0;
+    height: 76%;
+  }
+
+  div.projects .content h2 {
+    margin: 10px 0 2px;
+    font-size: 16px;
+  }
+
+  div.projects .content a {
+    font-size: 6px;
+  }
+
+  div.projects .content .technologies {
+    margin-top: 0;
+  }
+
+  div.projects .content p {
+    padding: 3px 10px;
+    font-size: 7px;
+  }
+
+  div.projects .wrapper-for-arrows i.fas {
+    font-size: 40px;
+  }
+
+  div.projects .content .technologies i,
+  div.projects .content .technologies em {
+    font-size: 12px;
+    padding: 0 4px 0;
+  }
+}
+
+@media (max-width: 534px) and (orientation: landscape) {
+  div.projects h1 {
+    font-size: 25px;
+  }
+
+  div.projects .wrapper-for-arrows i.fas {
+    font-size: 35px;
+  }
+
+  div.projects .content h2 {
+    font-size: 14px;
+  }
+
+  div.projects .content p {
+    line-height: 7px;
+  }
+}
+
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  div.projects .container {
+    display: block;
+  }
+
+  div.projects .container a.photo-container {
+    width: 100%;
+    height: 70%;
+  }
+
+  div.projects .content {
+    width: 100%;
+    padding-top: 4%;
+  }
+
+  div.projects .content h2 {
+    margin: 0 0 5px;
+  }
+
+  div.projects .wrapper-for-arrows {
+    height: 58%;
+    margin-top: 20%;
+  }
+
+  /* font sizes: */
+  div.projects .content h2 {
+    font-size: 35px;
+  }
+
+  div.projects .content a {
+    font-size: 12px;
+  }
+
+  div.projects .content p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  div.projects .content .technologies em,
+  div.projects .content .technologies i {
+    font-size: 30px;
+  }
+
+  div.projects .wrapper-for-arrows i.fas {
+    top: 60%;
+  }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  div.projects .wrapper-for-arrows {
+    height: 52%;
+    margin-top: 10%;
+  }
+
+  div.projects .wrapper-for-arrows i.fas {
+    top: 70%;
+  }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+  div.projects .wrapper-for-arrows {
+    height: 40%;
+    margin-top: 15%;
+  }
+
+  div.projects .container {
+    width: 70%;
+  }
+
+  div.projects h1 {
+    font-size: 40px;
+    margin: 20px 0 20px 0;
+  }
+
+  div.projects .content h2 {
+    font-size: 25px;
+  }
+
+  div.projects .content a {
+    font-size: 10px;
+  }
+
+  div.projects .content p {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 5px 10px 10px;
+  }
+
+  div.projects .content .technologies em,
+  div.projects .content .technologies i {
+    font-size: 25px;
+    padding: 0 6px 0;
+  }
+
+  div.projects .wrapper-for-arrows i.fas {
+    font-size: 40px;
+  }
+
+  div.projects .container a p {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 8px;
+  }
+
+  .dots li {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 376px) and (orientation: portrait) {
+  div.projects .content h2 {
+    font-size: 20px;
+  }
+
+  div.projects .content a {
+    font-size: 8px;
+  }
+
+  div.projects .content .technologies em,
+  div.projects .content .technologies i {
+    font-size: 20px;
+    padding: 0 4px 0;
+  }
+
+  div.projects .content p {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 5px 10px 10px;
+  }
+}
+
+@media (max-width: 376px) and (min-height: 668px) and (orientation: portrait) {
+  div.projects .wrapper-for-arrows {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  div.projects h1 {
+    font-size: 30px;
+  }
+
+  div.projects .content h2 {
+    font-size: 18px;
+  }
+
+  div.projects .content a {
+    font-size: 7px;
+  }
+
+  div.projects .content .technologies em,
+  div.projects .content .technologies i {
+    font-size: 15px;
+  }
+
+  div.projects .wrapper-for-arrows i.fas {
+    font-size: 30px;
+  }
+
+  div.projects .content p {
+    font-size: 9px;
+    line-height: 9px;
+  }
+
+  div.projects .content .technologies {
+    margin-top: 4px;
+  }
+}
+
+/* CONTACT SECTION */
+
+@media (max-width: 1366px) and (orientation: landscape) {
+  div.contact {
+    margin-top: 2vh;
+  }
+
+  div.contact .info p {
+    font-size: 25px;
+  }
+
+  div.contact .info {
+    padding: 0 5vw 0;
+  }
+
+  div.contact input,
+  div.contact textarea {
+    font-size: 25px;
+    padding: 3%;
+  }
+
+  div.contact form input:nth-last-child(1) {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+
+  div.contact .info p,
+  div.contact input,
+  div.contact textarea,
+  div.contact form input:nth-last-child(1) {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 824px) and (orientation: landscape) {
+  div.contact {
+    height: 110%;
+  }
+
+  div.contact h1 {
+    font-size: 25px;
+    margin: 0 0 20px 20px;
+  }
+
+  div.contact .info p,
+  div.contact input,
+  div.contact textarea,
+  div.contact form input:nth-last-child(1),
+  .contact .socials i span,
+  div.contact .map p {
+    font-size: 10px;
+  }
+
+  div.contact form input:nth-last-child(1) {
+    height: 5vh;
+    margin-bottom: 3%;
+  }
+
+  div.contact input,
+  div.contact textarea {
+    margin-bottom: 3%;
+  }
+
+  div.contact form {
+    margin-top: 10px;
+  }
+
+  div.contact input {
+    height: 4vh;
+    padding: 2%;
+  }
+
+  div.contact .socials i {
+    font-size: 15px;
+  }
+
+  .contact .socials {
+    margin-top: 0;
+  }
+
+  .contact .socials i:nth-of-type(1) span {
+    width: 80px;
+    margin-left: -40px;
+  }
+
+  .contact .socials i:nth-of-type(2) span {
+    width: 160px;
+    margin-left: -80px;
+  }
+
+}
+
+/* iphone X */
+@media (max-width: 812px) and (min-height: 375px) and (orientation: landscape) {
+
+  div.contact .info p,
+  div.contact input,
+  div.contact textarea,
+  div.contact form input:nth-last-child(1),
+  .contact .socials i span,
+  div.contact .map p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+
+  div.contact .info p,
+  div.contact input,
+  div.contact textarea,
+  div.contact form input:nth-last-child(1),
+  .contact .socials i span,
+  div.contact .map p {
+    font-size: 9px;
+  }
+
+  div.contact form {
+    margin-top: 5px;
+  }
+
+  div.contact .socials i {
+    font-size: 10px;
+  }
+
+  .contact .socials i:nth-of-type(1) span {
+    width: 60px;
+    margin-left: -30px;
+
+  }
+
+  .contact .socials i:nth-of-type(2) span {
+    width: 120px;
+    margin-left: -60px;
+  }
+}
+
+@media (max-width: 534px) and (orientation: landscape) {
+
+  div.contact .info p,
+  div.contact input,
+  div.contact textarea,
+  div.contact form input:nth-last-child(1),
+  .contact .socials i span,
+  div.contact .map p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  div.contact {
+    margin-top: 0;
+  }
+
+  div.contact .container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  div.contact input {
+    height: 2vh;
+  }
+
+  div.contact form input:nth-last-child(1) {
+    height: 5vh;
+  }
+
+  .contact .socials {
+    margin-top: 0;
+  }
+
+  div.contact .map {
+    height: auto;
+    max-height: 40%;
+    width: calc(100% - 10vw);
+    margin: 3% auto 0;
+  }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  div.contact input {
+    height: 3vh;
+    margin-bottom: 3%;
+  }
+
+  div.contact h1 {
+    margin: 0 0 20px 0;
+  }
+
+  div.contact .container {
+    height: calc(100% - 60px - 20px);
+  }
+
+  div.contact div.info {
+    padding: 0 5vw 0;
+  }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+  div.contact h1 {
+    font-size: 35px;
+  }
+
+  div.contact .container {
+    height: calc(100% - 35px - 20px);
+  }
+
+  div.contact .info p,
+  div.contact input,
+  div.contact textarea,
+  div.contact form input:nth-last-child(1),
+  .contact .socials i span,
+  div.contact .map p {
+    font-size: 12px;
+  }
+
+  div.contact .socials i {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 376px) and (orientation: portrait) {
+  div.contact h1 {
+    font-size: 30px;
+  }
+
+  div.contact .container {
+    height: calc(100% - 30px - 20px);
+  }
+
+  div.contact .info p,
+  div.contact input,
+  div.contact textarea,
+  div.contact form input:nth-last-child(1),
+  .contact .socials i span,
+  div.contact .map p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+
+  div.contact .info p,
+  div.contact input,
+  div.contact textarea,
+  div.contact form input:nth-last-child(1),
+  .contact .socials i span,
+  div.contact .map p {
+    font-size: 10px;
+  }
+}
+
+
+/* POPUP */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .modal-wrap .modal {
+    width: 30%;
+    height: 10%;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 2px green;
+  }
+}
+
+@media (max-width: 412px) and (orientation: portrait) {
+  .modal-wrap .modal p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  .modal-wrap .modal p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 812px) and (orientation: landscape) {
+  .modal-wrap .modal {
+    border: 1px solid black;
+    box-shadow: 0 0 10px 2px green;
+  }
+
+  .modal-wrap .modal p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+  .modal-wrap .modal p {
+    font-size: 10px;
+  }
+}
+
+/* TRIANGLE */
+@media (max-width: 1280px) {
+  div.projects .container a .triangle p {
+    font-size: 8px;
+    line-height: 10px;
+    top: -6vw;
+    left: 1vw;
+  }
+}
+
+@media (max-width: 736px) {
+
+  div.projects .container a .triangle p {
+    font-size: 7px;
+    line-height: 8px;
+  }
+}
+
+@media (max-width: 640px) {
+
+  div.projects .container a .triangle p {
+    font-size: 6px;
+    line-height: 7px;
+  }
+}
+
+
+@media (max-width: 532px) {
+  div.projects .container a .triangle p {
+    font-size: 4px;
+    line-height: 6px;
+  }
+}
+
+@media (max-width: 531px) and (orientation: portrait) {
+  div.projects .container a .triangle p {
+    /* font-size: 4px; */
+    line-height: 4px;
+    top: -11vw;
+    left: 3vw;
+  }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+  div.projects .container a .triangle {
+    border-width: 8vw 8vw 0 0;
+  }
+
+  div.projects .container a .triangle p {
+    top: -11.5vw;
+    left: 3.5vw;
+  }
+}
+
+@media (max-width: 376px) and (orientation: portrait) {
+  div.projects .container a .triangle p {
+    top: -12.5vw;
+    left: 4vw;
+  }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  div.projects .container a .triangle p {
+    top: -13vw;
+    left: 4vw;
+  }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  div.projects .container a .triangle p {
+    top: -14vw;
+    left: 4.5vw;
+  }
+}
